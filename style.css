@@ -1,61 +1,27 @@
-body{
-  font-family: sans-serif;
-  padding: 0;
-  margin: 0;
-  background-color: #f4f4f4;
+/*Colors
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343*/
+.main{
+  display: flex;
 }
 
-.container{
-  width: 80%;
-  margin: auto;
+#box{
+  display: flex;
+  flex-wrap: wrap;
 }
 
-header{
-  background:#35424a;
-  color:#ffffff;
-  padding-top: 30px;
-  min-height: 70px;
-  border-bottom: 3px solid #e8491d;
-}
-
-header a{
-  color:black;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-header ul{
-  padding: 0;
-  margin: 0;
-}
-
-header li{
-  float:left;
-  display:inline;
-  padding:5px 20px 5px 20px;
-}
-
-#showcase h1{
-  margin-top: 100px;
-  margin-bottom: 10px;
-  font-size: 55px;
-}
-
-#showcase p{
-  font-size: 20px;
-}
-
-#newsletter{
-  padding:15px;
-  color:#ffffff;
-  background: #35424a;
-}
-
-footer{
-  padding:20px;
-  margin-top:20px;
-  color:#ffffff;
-  background-color:#e8491d;
-  text-align: center;
+#boxone {
+  background-image:image("/Users/jacob/Desktop/TIY/HTML/week-one-project/week-one-project:images/product-1.jpg");
 }
