@@ -23,6 +23,7 @@ Box 4 - 7: Same Height, Class C
  */
 .main{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .wrapper{
@@ -34,6 +35,9 @@ Box 4 - 7: Same Height, Class C
 #box{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #boxone {
