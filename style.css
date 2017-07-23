@@ -282,11 +282,9 @@ input{
 
 .aboutwrapper{
   background-color: #F2F1E8;
-  width: 1350px;
-  margin: 0 auto;
-  border-radius: 8px;
+  max-width: 1350px;
+  /*margin: 0 auto;*/
   overflow: hidden;
-  align-content: center;
 }
 
 .aboutmain{
@@ -294,6 +292,9 @@ input{
   flex-direction:column;
   justify-content: center;
   margin: 0 auto;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-weight: bold;
 }
 
 #birdhouse {
@@ -326,8 +327,9 @@ table{
 }
 
 #middle{
-  height: 400px;
-  width: 1350px;
+  height: 320px;
+  z-index: 0;
+  width: 100%;
 }
 
 #maintwo{
@@ -337,8 +339,9 @@ table{
 
 blockquote{
   font-style: italic;
-  padding-top: 20px;
   float:left;
+  font-weight: lighter;
+  line-height: 10px
 }
 
 #mainfour{
@@ -362,4 +365,19 @@ figcaption{
 
 #inlinelink:hover{
   color:#967343;
+}
+
+#artist{
+  font-size: 50px;
+  text-align: center;
+}
+
+#middle_image h1 {
+  z-index: 1;
+  position: relative;
+  background-color: black;
+  color: #F2F1E8;
+  text-align: center;
+  font-size: 50px;
+
 }
