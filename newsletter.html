@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="style.css" />
-<title>Bent Creek Ceramics - Newsletter</title>
- </head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Bent Creek Ceramics - Newsletter</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i');
+</style>
+</head>
+  </head>
   <body>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="newsletter.html">Newsletter</a>
-    </nav>
-
+    <div class="otherwrapper">
+      <header id="site_header">
+          <img id="logo"src="/Users/jacob/Desktop/Testing/week-one-project:images/bent-creek-logo.png" alt="logo" />
+          <nav id="main_nav">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="newsletter.html">Newsletter</a>
+          </nav>
+      </header>
+      <div class="newswrapper">
+        <form class="solicit">
+          <h1>Sign Up for our weekly newsletter</h1>
+          <h3>Stay up to date with events, activities, news, and specials.</h3>
+        <div id="nameinput">
+          <label class="name" for="name">Name</label>
+          <input id="name" name="name" type="text" required/>
+        </div>
+        <div id="emailinput">
+          <label class="email" for="email">Email</label>
+          <input id="email" class="email" name="email" type="email" required />
+        </div>
+        <div id="button">
+            <button for="Enter">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
