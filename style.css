@@ -118,10 +118,21 @@ img{
 #productlist h2{
     font-size: 1.2em;
 }
+
+/*.productone{
+  position: absolute;
+}*/
+
+/*.productone h2{
+  position: absolute;
+  color: white;
+  z-index: 1;
+}*/
 #productone{
   height:370px;
   flex-basis: 0%;
   width: 735px;
+  z-index: 0;
 }
 
 #producttwo{
@@ -285,6 +296,11 @@ input{
   max-width: 1350px;
   /*margin: 0 auto;*/
   overflow: hidden;
+  background-image: url("/Users/jacob/Desktop/TIY/HTML/week-one-project/week-one-project:images/background-3.jpg");
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: 1350px 325px;
+  background-repeat: no-repeat;
 }
 
 .aboutmain{
@@ -326,11 +342,6 @@ table{
   width:165px;
 }
 
-#middle{
-  height: 320px;
-  z-index: 0;
-  width: 100%;
-}
 
 #maintwo{
   border-left: 2px solid #968772;
@@ -372,12 +383,7 @@ figcaption{
   text-align: center;
 }
 
-#middle_image h1 {
-  z-index: 1;
-  position: relative;
-  background-color: black;
-  color: #F2F1E8;
+#mainmiddle h1{
   text-align: center;
-  font-size: 50px;
-
+  color:#F2F1E8;
 }
