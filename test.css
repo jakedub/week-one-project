@@ -105,18 +105,10 @@ img{
 #productlist{
   padding: 20px;
   margin-bottom: 5px;
-  list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-#productlist{
-  display: flex;
-  flex-direction: column;
+  justify-content:;
   flex-wrap: wrap;
 }
 
@@ -124,7 +116,6 @@ img{
   background-image: url("/Users/jacob/Desktop/TIY/HTML/week-one-project/week-one-project:images/product-1.jpg");
   background-position: center;
   background-size: cover;
-  /*flex-basis: 50%;*/
   width: 735px;
   background-repeat: no-repeat;
 }
@@ -133,9 +124,10 @@ img{
   /*padding: 0;
   margin: 0;*/
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  /*justify-content: space-between;*/
   flex-wrap: wrap;
+  padding-right: 20px;
+  margin-right: 20px;
 }
 
 #productlist span{
@@ -147,41 +139,33 @@ img{
 
 #producttwo{
   background-image: url("/Users/jacob/Desktop/Testing/week-one-project:images/product-2.jpg");
-  /*flex-basis: 30%;*/
   width: 235px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  flex: 1;
 
-}
-
-#producttwo h1{
-  color:#F2F1E8;
-  background-color: gray;
-  align-content: flex-start;
-  align-items: center;
 }
 
 #productthree{
   background-image: url("/Users/jacob/Desktop/Testing/week-one-project:images/product-3.jpg");
-  /*flex-basis: 30%;*/
   width: 235px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  flex: 1;
 }
 
 .img {
-  display: flex;
+  /*display: flex;*/
   justify-content: flex-start;
   align-items: flex-end;
   height:370px;
-  /*padding: 20px;*/
+  padding: 20px;
 }
 
 #productfour{
   background-image: url("/Users/jacob/Desktop/Testing/week-one-project:images/product-4.jpg");
-  /*flex-basis: 30%;*/
   width: 235px;
   background-repeat: no-repeat;
   background-position: center;
@@ -190,7 +174,6 @@ img{
 
 #productfive{
   background-image: url("/Users/jacob/Desktop/Testing/week-one-project:images/product-5.jpg");
-/*flex-basis: 30%;*/
   width: 235px;
   background-repeat: no-repeat;
   background-position: center;
@@ -199,7 +182,6 @@ img{
 
 #productsix{
   background-image: url("/Users/jacob/Desktop/Testing/week-one-project:images/product-6.jpg");
-/*flex-basis: 30%;*/
   width: 480px;
   background-repeat: no-repeat;
   background-position: center;
@@ -208,21 +190,12 @@ img{
 
 #productseven{
   background-image: url("/Users/jacob/Desktop/Testing/week-one-project:images/product-7.jpg");
-/*flex-basis: 30%;*/
   width: 235px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-
-
-/*#productthree h1{
-  color:#F2F1E8;
-  background-color: gray;
-  align-content: flex-start;
-  align-items: center;
-}*/
 
 /*Footer*/
 footer{

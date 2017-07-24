@@ -108,7 +108,7 @@ img{
 }
 #productlist ul{
     list-style: none;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -122,20 +122,27 @@ img{
     align-items: center;
 }
 
-/*.productone{
-  position: absolute;
-}*/
+.image{
+  position:relative;
+  width: 100%;
+}
 
-/*.productone h2{
+ .image span{
   position: absolute;
   color: white;
-  z-index: 1;
-}*/
+  top: 300px;
+  left: 0;
+  width: 150px;
+}
+.productone_img{
+  position: relative;
+}
+
 #productone{
   height:370px;
   flex-basis: 0%;
   width: 735px;
-  z-index: 0;
+ position: relative;
 }
 
 #producttwo{
