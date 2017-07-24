@@ -1,0 +1,240 @@
+/*Colors
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343*/
+
+/*General Section*/
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    padding-top: 20px;
+}
+img{
+    max-width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background-color: #F2F1E8;
+    width: 1350px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/*Header*/
+#site_header{
+    background-color: #FFFFFF;
+    /*padding: 10px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Merriweather", serif;
+    /*position: fixed;
+    width: 100%;*/
+    /*overflow-x: scroll;*/
+}
+
+#logo{
+    /*background-image:url("/Users/jacob/Desktop/Testing/week-one-project:images/bent-creek-logo.png");*/
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}
+#main_nav{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+#main_nav a{
+    /*display: inline;*/
+    padding: 12px 18px;
+    text-transform:uppercase;
+    color: #2B2F26;
+    align-items: stretch;
+    width: 100px;
+}
+#main_nav a:hover{
+    color: #CD5D67;
+}
+
+#main_nav a:active{
+    color: #CD5D67;
+}
+/*Title Page*/
+#titlepage{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    line-height: 20px;
+    font-family: "Robot", sans-serif;
+}
+
+#titlepage h1{
+  font-size: 50px;
+}
+
+#titlepage h3 {
+  font-size: 30px;
+  padding-left: 20px;
+  font-weight: lighter;
+}
+
+
+/*Product*/
+#productlist{
+  padding: 20px;
+  margin-bottom: 5px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#productlist{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#productone{
+  background-image: url("/Users/jacob/Desktop/TIY/HTML/week-one-project/week-one-project:images/product-1.jpg");
+  background-position: center;
+  background-size: cover;
+  /*flex-basis: 50%;*/
+  width: 735px;
+  background-repeat: no-repeat;
+}
+
+#productlist div{
+  /*padding: 0;
+  margin: 0;*/
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#productlist span{
+  color:#F2F1E8;
+  background-color: gray;
+  align-content: flex-start;
+  align-items: center;
+}
+
+#producttwo{
+  background-image: url("/Users/jacob/Desktop/Testing/week-one-project:images/product-2.jpg");
+  /*flex-basis: 30%;*/
+  width: 235px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+#producttwo h1{
+  color:#F2F1E8;
+  background-color: gray;
+  align-content: flex-start;
+  align-items: center;
+}
+
+#productthree{
+  background-image: url("/Users/jacob/Desktop/Testing/week-one-project:images/product-3.jpg");
+  /*flex-basis: 30%;*/
+  width: 235px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height:370px;
+  /*padding: 20px;*/
+}
+
+#productfour{
+  background-image: url("/Users/jacob/Desktop/Testing/week-one-project:images/product-4.jpg");
+  /*flex-basis: 30%;*/
+  width: 235px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#productfive{
+  background-image: url("/Users/jacob/Desktop/Testing/week-one-project:images/product-5.jpg");
+/*flex-basis: 30%;*/
+  width: 235px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#productsix{
+  background-image: url("/Users/jacob/Desktop/Testing/week-one-project:images/product-6.jpg");
+/*flex-basis: 30%;*/
+  width: 480px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#productseven{
+  background-image: url("/Users/jacob/Desktop/Testing/week-one-project:images/product-7.jpg");
+/*flex-basis: 30%;*/
+  width: 235px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/*#productthree h1{
+  color:#F2F1E8;
+  background-color: gray;
+  align-content: flex-start;
+  align-items: center;
+}*/
+
+/*Footer*/
+footer{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+#site_footer{
+    width: 1300px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+}

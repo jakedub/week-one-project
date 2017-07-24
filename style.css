@@ -115,8 +115,11 @@ img{
     flex-wrap: wrap;
 }
 
-#productlist h2{
+#productlist span{
     font-size: 1.2em;
+    background-color: gray;
+    align-content: flex-start;
+    align-items: center;
 }
 
 /*.productone{
