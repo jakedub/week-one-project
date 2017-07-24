@@ -103,12 +103,12 @@ img{
 
 /*Product*/
 #productlist{
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 5px;
 }
 #productlist ul{
     list-style: none;
-    padding: 10px;
+    padding: 5px;
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -117,7 +117,7 @@ img{
 
 #productlist span{
     font-size: 1.2em;
-    background-color: gray;
+    background-color: black;
     align-content: flex-start;
     align-items: center;
 }
@@ -130,13 +130,20 @@ img{
  .image span{
   position: absolute;
   color: white;
-  top: 300px;
+  top: 80%;
   left: 0;
-  width: 150px;
+  /*width: 40%;*/
+  flex-basis: 40%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
-.productone_img{
+
+.midrange{
+  margin-top: 10px;
+}
+/*.productone_img{
   position: relative;
-}
+}*/
 
 #productone{
   height:370px;
