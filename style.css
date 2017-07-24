@@ -307,7 +307,7 @@ input{
   display:flex;
   flex-direction:column;
   justify-content: center;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   padding-left: 15%;
   padding-right: 15%;
   font-weight: bold;
@@ -326,12 +326,22 @@ input{
 table td{
   border: 1px solid black;
   outline-color: black;
+  padding: 10px;
+}
+
+table th{
+  text-align: center;
+  border: 1px solid black;
+  outline-offset: black;
+  font-weight: 300;
 }
 
 table{
   border-collapse: collapse;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: lighter;
 }
 
 .clay{
@@ -386,4 +396,10 @@ figcaption{
 #mainmiddle h1{
   text-align: center;
   color:#F2F1E8;
+
+}
+
+#mainmiddle{
+  padding-top: 50px;
+  padding-bottom: 200px;
 }
