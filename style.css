@@ -49,6 +49,9 @@ img{
     font-family: "Merriweather", serif;
     position: fixed;
     width: 100%;
+    top: 10px;
+    padding-top: 10px;
+    z-index: 9999;
     /*overflow-x: scroll;*/
 }
 
@@ -213,7 +216,10 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     font-family: "Merriweather", serif;
-    width: 100%;*/
+    width: 100%;
+    position: fixed;
+    padding-top: 10px;
+    z-index: 999;
   }
 
 .otherwrapper{
@@ -239,9 +245,10 @@ footer{
   background-color:#FFFFFF;
   flex-basis: 615px;
   height: 380px;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-left: 30px;
   margin: 45px;
+  margin-top: 10%;
   font-family: "Merriweather", sans-serif;
   line-height: 30px;
 }
