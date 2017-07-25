@@ -47,8 +47,8 @@ img{
     flex-direction: row;
     justify-content: space-between;
     font-family: "Merriweather", serif;
-    /*position: fixed;
-    width: 100%;*/
+    position: fixed;
+    width: 100%;
     /*overflow-x: scroll;*/
 }
 
@@ -88,6 +88,7 @@ img{
     align-content: center;
     line-height: 20px;
     font-family: "Robot", sans-serif;
+    margin-top: 50px;
 }
 
 #titlepage h1{
@@ -205,6 +206,16 @@ footer{
 
 /*Newsletter*/
 
+#news_header{
+    background-color: #FFFFFF;
+    /*padding: 10px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Merriweather", serif;
+    width: 100%;*/
+  }
+
 .otherwrapper{
     width: 1350px;
     background-color: #F2F1E8;
@@ -214,17 +225,13 @@ footer{
 .newswrapper{
     background-image: url("/Users/jacob/Desktop/Testing/week-one-project:images/background-2.jpg");
     background-repeat: no-repeat;
-    /*border-radius: 8px;*/
-    /*overflow: hidden;*/
     width: 100%;
     height: 100%;
-    /*background-origin: content-box;*/
-    position: fixed;
-    padding: 0;
-    margin: 0 auto;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-content: center;
+    position: absolute;
 }
 
 .solicit{
@@ -310,12 +317,12 @@ input{
 
 .aboutwrapper{
   background-color: #F2F1E8;
-  max-width: 1350px;
+  /*max-width: 1350px;*/
   /*margin: 0 auto;*/
   overflow: hidden;
   background-image: url("/Users/jacob/Desktop/TIY/HTML/week-one-project/week-one-project:images/background-3.jpg");
-  background-position: center center;
-  background-attachment: scroll;
+  background-position: center;
+  background-attachment: fixed;
   background-size: 1350px 325px;
   background-repeat: no-repeat;
 }
@@ -334,6 +341,7 @@ input{
   height: 125px;
   width: 170px;
   float:left;
+  padding-right: 15px;
 }
 
 .dark_tan{
@@ -386,6 +394,7 @@ blockquote{
   display: block;
   justify-content: flex-end;
   flex-direction: column;
+  padding-right: -100px;
 }
 
 figure{
@@ -395,6 +404,7 @@ figure{
 figcaption{
   border: 1px transparent;
   width:165px;
+  font-weight: lighter;
 }
 
 #inlinelink{
@@ -410,9 +420,11 @@ figcaption{
   text-align: center;
 }
 
-#mainmiddle h1{
+#mainmiddle{
   text-align: center;
   color:#F2F1E8;
+  font-size: 80px;
+  margin-top: 100px;
 
 }
 
