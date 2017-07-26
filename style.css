@@ -82,6 +82,12 @@ img{
 #main_nav a:active{
     color: #CD5D67;
 }
+
+/*body#home a#homenav,
+body#home a#newsnav,
+body#home a#aboutnav {
+	color: #968772
+}*/
 /*Title Page*/
 #titlepage{
     padding: 10px;
@@ -336,7 +342,6 @@ input{
   /*background-attachment: fixed;*/
   background-size: 1350px 325px;
   background-repeat: no-repeat;
-  font-size: 25px;
 }
 
 .aboutmain{
@@ -347,6 +352,7 @@ input{
   padding-left: 15%;
   padding-right: 15%;
   font-weight: bold;
+  font-size: 25px;
 }
 
 #birdhouse {
@@ -399,7 +405,10 @@ blockquote{
   font-style: italic;
   float:left;
   font-weight: lighter;
-  line-height: 10px
+  line-height: 20px;
+  font-size: 20px;
+  margin-top: -5px;
+  margin-bottom: -5px;
 }
 
 #mainfour{
