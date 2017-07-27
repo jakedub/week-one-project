@@ -221,21 +221,20 @@ footer{
 
 #news_header{
     background-color: #FFFFFF;
-    /*padding: 10px;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-family: "Merriweather", serif;
     width: 100%;
     position: fixed;
-    padding-top: 10px;
     z-index: 999;
+    padding-top: 10px;
   }
 
 .otherwrapper{
     width: 1350px;
     background-color: #F2F1E8;
-    overflow: hidden;
+    z-index: 10;
 }
 
 .newswrapper{
@@ -248,6 +247,7 @@ footer{
     justify-content: center;
     align-content: center;
     position: absolute;
+    clear: both;
 }
 
 .solicit{
